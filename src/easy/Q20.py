@@ -4,6 +4,7 @@ https://leetcode.com/problems/valid-parentheses/
 """
 
 
+# O(n) time, O(n) space, where n is the length of `s`
 def is_valid(s: str):
     pairs = {
         ")": "(",
