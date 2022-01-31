@@ -2,4 +2,5 @@
 .idea/
 leetcode.iml
 src/scratch.py
-cmake-build-debug
+cmake-build-debug/
+venv/
