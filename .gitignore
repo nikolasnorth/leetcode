@@ -1,6 +1,12 @@
+# macOS
 .DS_Store
+
+# CLion
 .idea/
 leetcode.iml
-src/scratch.py
-cmake-build-debug/
+
+# Build
+cmake-build-debug-gcc-11/
+
+# Python virtual env
 venv/
