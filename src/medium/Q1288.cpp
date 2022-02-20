@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// O(n) time, O(n) space, where n is the size of `intervals`
 auto remove_covered_intervals(vector<vector<int>> &intervals) -> int {
   // Sort intervals by leftmost points from smallest to largest.
   // When leftmost points are equal, sort by rightmost points from largest to
