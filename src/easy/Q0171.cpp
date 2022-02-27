@@ -9,10 +9,10 @@ using namespace std;
 
 // O(n) time, O(1) space, where n is the size of `column_title`
 auto title_to_number(string column_title) -> int {
-  reverse(column_title.begin(), column_title.end());
-  int num = 0;
-  for (int i = 0; i < column_title.size(); ++i) {
-    num += (column_title[i] - 'A' + 1) * pow(26, i);
+  size_t i = 1, N = columnTitle.size(), col_num = 0;
+  for (const char col : columnTitle) {
+    col_num += (col - 'A' + 1) * pow(26, N - i);
+    ++i;
   }
-  return num;
+  return col_num;
 }
