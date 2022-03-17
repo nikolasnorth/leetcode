@@ -8,23 +8,21 @@ from typing import List
 
 # O(n^2) time, O(n) space, where n is the size of `nums`
 def three_sum(nums: List[int]) -> List[List[int]]:
-    result = []
     nums.sort()
-    for i, num in enumerate(nums):
-        if i > 0 and num == nums[i - 1]:
-            # skip duplicate
+    solution_set = []
+    for i in range(len(nums)):
+        if i > 0 and nums[i] == nums[i - 1]:
             continue
         l, r = i + 1, len(nums) - 1
         while l < r:
-            sum = num + nums[l] + nums[r]
-            if sum == 0:
-                result.append([nums[i], nums[l], nums[r]])
+            triplet_sum = nums[i] + nums[l] + nums[r]
+            if triplet_sum == 0:
+                solution_set.append([nums[i], nums[l], nums[r]])
                 l += 1
                 while l < r and nums[l] == nums[l - 1]:
-                    # skip duplicate
                     l += 1
-            elif sum < 0:
+            elif triplet_sum < 0:
                 l += 1
             else:
                 r -= 1
-    return result
+    return solution_set
