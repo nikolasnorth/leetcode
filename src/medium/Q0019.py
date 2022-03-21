@@ -11,15 +11,13 @@ class ListNode:
         self.next = next
 
 
-# O(n) time, O(1) space, where n is the number of nodes in the linked list
+# Time: O(n), Space: O(1), where n is the number of nodes in the list
 def remove_nth_node(head: Optional[ListNode], n: int):
-    slow = head
-    fast = head
+    slow = fast = head
     for i in range(n):
         fast = fast.next
     if not fast:
-        head = head.next
-        return head
+        return head.next
     while fast.next:
         slow = slow.next
         fast = fast.next
