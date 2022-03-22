@@ -4,13 +4,9 @@ https://leetcode.com/problems/valid-parentheses/
 """
 
 
-# O(n) time, O(n) space, where n is the length of `s`
+# Time: O(n), Space: O(n), where n is the length of `s`
 def is_valid(s: str):
-    pairs = {
-        ")": "(",
-        "}": "{",
-        "]": "[",
-    }
+    pairs = {")": "(", "}": "{", "]": "["}
     stack = []
     for bracket in s:
         if bracket in pairs.values():
