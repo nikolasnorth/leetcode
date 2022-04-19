@@ -1,6 +1,7 @@
 // 99. Recover Binary Search Tree
 // https://leetcode.com/problems/recover-binary-search-tree/
 
+#include <algorithm>
 #include <functional>
 #include <vector>
 
@@ -29,9 +30,8 @@ void recover_tree(TreeNode *root) {
 
   auto sorted_vals = vector<int>();
   sorted_vals.reserve(nodes.size());
-  for (const auto &node : nodes) {
-    sorted_vals.push_back(node->val);
-  }
+  transform(nodes.cbegin(), nodes.cend(), back_inserter(sorted_vals)
+            [](const TreeNode *node) { return node->val; });
   sort(sorted_vals.begin(), sorted_vals.end());
 
   for (int i = 0; i < nodes.size(); ++i) {
