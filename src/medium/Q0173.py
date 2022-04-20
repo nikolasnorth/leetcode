@@ -16,7 +16,6 @@ class TreeNode:
 # Time: O(n), Space: O(log n), where n is the number of nodes in the tree.
 class BstIterator:
     stack: list[TreeNode]
-    current: TreeNode | None
 
     def __init__(self, root: TreeNode | None):
         self.stack = []
