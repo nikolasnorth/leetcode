@@ -26,7 +26,7 @@ auto remove_duplicates(string s, int k) -> string {
     // Increment count of 'c'
     ++top.second;
   }
-  string result = "";
+  string result;
   for (const auto &[c, count] : stack) {
     result += string(count, c);
   }
