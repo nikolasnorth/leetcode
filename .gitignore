@@ -6,7 +6,7 @@
 leetcode.iml
 
 # Build
-cmake-build-debug-gcc-11/
+cmake-build-debug/
 
 # Python virtual env
 venv/
