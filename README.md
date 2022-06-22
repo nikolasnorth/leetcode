@@ -9,7 +9,6 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | Number | Title                               |
 |--------|-------------------------------------|
 | 1      | Two Sum                             |
-| 1      | Two Sum                             |
 | 9      | Palindrome Number                   |
 | 13     | Roman to Integer                    |
 | 14     | Longest Common Prefix               |
