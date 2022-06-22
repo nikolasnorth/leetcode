@@ -2,68 +2,77 @@
 
 This repository contains C++ and Python solutions to Leetcode questions.
 
-## Easy
+## Completed Questions
 
-- [x] 1 Two Sum
-- [x] 9 Palindrome Number
-- [x] 13 Roman to Integer
-- [x] 14 Longest Common Prefix
-- [x] 20 Valid Parentheses
-- [x] 21 Merge Two Sorted Lists
-- [x] 26 Remove Duplicates from Sorted Array
-- [x] 69 Sqrt(x)
-- [x] 83 Remove Duplicates from Sorted List
-- [x] 94 Binary Tree Inorder Traversal
-- [x] 100 Same Tree
-- [x] 104 Maximum Depth of Binary Tree
-- [x] 136 Single Number
-- [x] 169 Majority Element
-- [x] 171 Excel Sheet Column Number
-- [x] 258 Add Digits
-- [x] 338 Counting Bits
-- [x] 344 Reverse String
-- [x] 389 Find the Difference
-- [x] 392 Is Subsequence
-- [x] 680 Valid Palindrome II
-- [x] 700 Search in a Binary Search Tree
-- [x] 703 Kth Largest Element in a Stream
-- [x] 897 Increasing Order Search Tree
-- [x] 941 Valid Mountain Array
-- [x] 1337 The K Weakest Rows in a Matrix
-- [x] 1672 Richest Customer Wealth
+### Easy
 
-## Medium
+| Number | Title                               |
+|--------|-------------------------------------|
+| 1      | Two Sum                             |
+| 1      | Two Sum                             |
+| 9      | Palindrome Number                   |
+| 13     | Roman to Integer                    |
+| 14     | Longest Common Prefix               |
+| 20     | Valid Parentheses                   |
+| 21     | Merge Two Sorted Lists              |
+| 26     | Remove Duplicates from Sorted Array |
+| 69     | Sqrt(x)                             |
+| 83     | Remove Duplicates from Sorted List  |
+| 94     | Binary Tree Inorder Traversal       |
+| 100    | Same Tree                           |
+| 104    | Maximum Depth of Binary Tree        |
+| 136    | Single Number                       |
+| 169    | Majority Element                    |
+| 171    | Excel Sheet Column Number           |
+| 258    | Add Digits                          |
+| 338    | Counting Bits                       |
+| 344    | Reverse String                      |
+| 389    | Find the Difference                 |
+| 392    | Is Subsequence                      |
+| 680    | Valid Palindrome II                 |
+| 700    | Search in a Binary Search Tree      |
+| 703    | Kth Largest Element in a Stream     |
+| 897    | Increasing Order Search Tree        |
+| 941    | Valid Mountain Array                |
+| 1337   | The K Weakest Rows in a Matrix      |
+| 1672   | Richest Customer Wealth             |
 
-- [x] 3 Longest Substring Without Repeating Characters
-- [x] 5 Longest Palindromic Substring
-- [x] 11 Container With Most Water
-- [x] 15 3Sum
-- [x] 19 Remove Nth Node From End of List
-- [x] 24 Swap Nodes in Pairs
-- [x] 33 Search in Rotated Sorted Array
-- [x] 39 Combination Sum
-- [x] 59 Spiral Matrix II
-- [x] 78 Subsets
-- [x] 99 Recover Binary Search Tree
-- [x] 133 Clone Graph
-- [x] 134 Gas Station
-- [x] 142 Linked List Cycle II
-- [x] 148 Sort List
-- [x] 165 Compare Version Numbers
-- [x] 167 Two Sum II
-- [x] 173 Binary Search Tree Iterator
-- [x] 230 Kth Smallest Element in a BST
-- [x] 402 Remove K Digits
-- [x] 413 Arithmetic Slices
-- [x] 456 132 Pattern
-- [x] 560 Subarray Sum Equals K
-- [x] 581 Shortest Unsorted Continuous Subarray
-- [x] 669 Trim a Binary Search Tree
-- [x] 1209 Remove All Adjacent Duplicates in String II
-- [x] 1288 Removed Covered Intervals
-- [x] 1679 Max Number of K-Sum Pairs
-- [x] 1721 Swapping Nodes in a Linked List
+### Medium
 
-## Hard
+| Number | Title                                          |
+|--------|------------------------------------------------|
+| 3      | Longest Substring Without Repeating Characters |
+| 5      | Longest Palindromic Substring                  |
+| 11     | Container With Most Water                      |
+| 15     | 3Sum                                           |
+| 19     | Remove Nth Node From End of List               |
+| 24     | Swap Nodes in Pairs                            |
+| 33     | Search in Rotated Sorted Array                 |
+| 39     | Combination Sum                                |
+| 59     | Spiral Matrix II                               |
+| 78     | Subsets                                        |
+| 99     | Recover Binary Search Tree                     |
+| 133    | Clone Graph                                    |
+| 134    | Gas Station                                    |
+| 142    | Linked List Cycle II                           |
+| 148    | Sort List                                      |
+| 165    | Compare Version Numbers                        |
+| 167    | Two Sum II                                     |
+| 173    | Binary Search Tree Iterator                    |
+| 230    | Kth Smallest Element in a BST                  |
+| 402    | Remove K Digits                                |
+| 413    | Arithmetic Slices                              |
+| 456    | 132 Pattern                                    |
+| 560    | Subarray Sum Equals K                          |
+| 581    | Shortest Unsorted Continuous Subarray          |
+| 669    | Trim a Binary Search Tree                      |
+| 1209   | Remove All Adjacent Duplicates in String II    |
+| 1288   | Removed Covered Intervals                      |
+| 1679   | Max Number of K-Sum Pairs                      |
+| 1721   | Swapping Nodes in a Linked List                |
 
-- [x] 23 Merge k Sorted Lists
+### Hard
+
+| Number | Title                |
+|--------|----------------------|
+| 23     | Merge k Sorted Lists |
