@@ -12,6 +12,6 @@ vector<int> running_sum(vector<int>& nums) {
   for (int i = 0; i < nums.size(); ++i) {
     const auto sum = accumulate(nums.cbegin(), nums.cbegin() + i + 1, int{0});
     sums.push_back(move(sum));
-  }≠
+  }
   return sums;
 }
