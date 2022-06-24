@@ -34,6 +34,7 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 897    | Increasing Order Search Tree        |
 | 941    | Valid Mountain Array                |
 | 1337   | The K Weakest Rows in a Matrix      |
+| 1480   | Running Sum of 1d Array             |
 | 1672   | Richest Customer Wealth             |
 
 ### Medium
