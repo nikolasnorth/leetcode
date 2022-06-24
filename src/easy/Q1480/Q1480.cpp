@@ -18,12 +18,12 @@ vector<int> running_sum(vector<int>& nums) {
 
 // Time: O(n), Space: O(n), where n is the size of `nums`.
 vector<int> running_sum_2(vector<int>& nums) {
-  if (nums.empty()) return 0;
+  if (nums.empty()) return {};
   vector<int> sums;
-  int running_sum = nums[0];
+  int running_sum = 0;
   for (int i = 0; i < sums.size(); ++i) {
-    sums.push_back(running_sum);
     running_sum += nums[i];
+    sums.push_back(running_sum);
   }
   return sums;
 }
