@@ -15,6 +15,7 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 20     | Valid Parentheses                   |
 | 21     | Merge Two Sorted Lists              |
 | 26     | Remove Duplicates from Sorted Array |
+| 27     | Remove Element                      |
 | 69     | Sqrt(x)                             |
 | 83     | Remove Duplicates from Sorted List  |
 | 94     | Binary Tree Inorder Traversal       |
