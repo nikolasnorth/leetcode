@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Time: O(n), Space: O(1)
 auto remove_element(vector<int>& nums, int val) -> int {
   size_t i = 0;
   for (size_t j = 0; j < nums.size(); ++j) {
