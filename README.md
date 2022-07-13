@@ -53,6 +53,7 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 59     | Spiral Matrix II                               |
 | 78     | Subsets                                        |
 | 99     | Recover Binary Search Tree                     |
+| 102    | Binary Tree Level Order Traversal              |
 | 133    | Clone Graph                                    |
 | 134    | Gas Station                                    |
 | 142    | Linked List Cycle II                           |
@@ -60,6 +61,7 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 165    | Compare Version Numbers                        |
 | 167    | Two Sum II                                     |
 | 173    | Binary Search Tree Iterator                    |
+| 199    | Binary Tree Right Side View                    |
 | 230    | Kth Smallest Element in a BST                  |
 | 402    | Remove K Digits                                |
 | 413    | Arithmetic Slices                              |
