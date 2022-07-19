@@ -22,6 +22,7 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 94     | Binary Tree Inorder Traversal       |
 | 100    | Same Tree                           |
 | 104    | Maximum Depth of Binary Tree        |
+| 118    | Pascal's Triangle                   |
 | 136    | Single Number                       |
 | 169    | Majority Element                    |
 | 171    | Excel Sheet Column Number           |
