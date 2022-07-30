@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-This repository contains C++ and Python solutions to Leetcode questions.
+This repository contains Python, Java and C++ solutions to LeetCode questions.
 
 ## Completed Questions
 
