@@ -16,7 +16,10 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 21     | Merge Two Sorted Lists              |
 | 26     | Remove Duplicates from Sorted Array |
 | 27     | Remove Element                      |
+| 28     | Implement strStr()                  |
 | 35     | Search Insert Position              |
+| 58     | Length of Last Word                 |
+| 66     | Plus One                            |
 | 69     | Sqrt(x)                             |
 | 83     | Remove Duplicates from Sorted List  |
 | 94     | Binary Tree Inorder Traversal       |
@@ -26,6 +29,9 @@ This repository contains C++ and Python solutions to Leetcode questions.
 | 136    | Single Number                       |
 | 169    | Majority Element                    |
 | 171    | Excel Sheet Column Number           |
+| 206    | Reverse Linked List                 |
+| 234    | Palindrome Linked List              |
+| 242    | Valid Anagram                       |
 | 258    | Add Digits                          |
 | 338    | Counting Bits                       |
 | 344    | Reverse String                      |
@@ -44,11 +50,14 @@ This repository contains C++ and Python solutions to Leetcode questions.
 
 | Number | Title                                          |
 |--------|------------------------------------------------|
+| 2      | Add Two Numbers                                |
 | 3      | Longest Substring Without Repeating Characters |
 | 5      | Longest Palindromic Substring                  |
 | 11     | Container With Most Water                      |
 | 15     | 3Sum                                           |
+| 17     | Letter Combinations of a Phone Number          |
 | 19     | Remove Nth Node From End of List               |
+| 22     | Generate Parentheses                           |
 | 24     | Swap Nodes in Pairs                            |
 | 33     | Search in Rotated Sorted Array                 |
 | 39     | Combination Sum                                |
