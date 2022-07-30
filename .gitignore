@@ -1,7 +1,7 @@
 # macOS
 .DS_Store
 
-# CLion
+# JetBrains
 .idea/
 leetcode.iml
 
@@ -10,3 +10,7 @@ cmake-build-debug/
 
 # Python virtual env
 venv/
+
+# Gradle
+.gradle
+build
