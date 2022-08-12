@@ -4,7 +4,7 @@ https://leetcode.com/problems/pascals-triangle/
 """
 
 
-# Time: O(n^2), Space: O(n^2), where n is `num_rows`.
+# Time: O(n^2), Space: O(n), where n is `num_rows`.
 def generate(num_rows: int) -> list[list[int]]:
     result = [[1]]
     for _ in range(1, num_rows):
