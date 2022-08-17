@@ -26,6 +26,8 @@ This repository contains Python, Java and C++ solutions to LeetCode questions.
 | 100    | Same Tree                           |
 | 104    | Maximum Depth of Binary Tree        |
 | 118    | Pascal's Triangle                   |
+| 119    | Pascal's Triangle II                |
+| 125    | Valid Palindrome                    |
 | 136    | Single Number                       |
 | 169    | Majority Element                    |
 | 171    | Excel Sheet Column Number           |
