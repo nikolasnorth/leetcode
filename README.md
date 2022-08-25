@@ -30,6 +30,7 @@ This repository contains Python, Java and C++ solutions to LeetCode questions.
 | 125    | Valid Palindrome                    |
 | 136    | Single Number                       |
 | 141    | Linked List Cycle                   |
+| 144    | Binary Tree Preorder Traversal      |
 | 169    | Majority Element                    |
 | 171    | Excel Sheet Column Number           |
 | 206    | Reverse Linked List                 |
