@@ -4,7 +4,7 @@ package easy;
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
 public class Q0160 {
 
-    record ListNode(int val, ListNode next) {
+    private record ListNode(int val, ListNode next) {
     }
 
     // Time: O(n), Space: O(1), where n is the number of nodes in the longest list.
