@@ -6,14 +6,19 @@ https://leetcode.com/problems/valid-parentheses/
 
 # Time: O(n), Space: O(n), where n is the length of `s`
 def is_valid(s: str):
-    pairs = {")": "(", "}": "{", "]": "["}
+    brackets = {
+            '(': ')',
+            '{': '}',
+            '[': ']',
+        }
     stack = []
     for bracket in s:
-        if bracket in pairs.values():
+        if bracket in brackets.keys():
             stack.append(bracket)
-            continue
-        if not stack:
+        elif stack:
+            open_bracket = stack.pop()
+            if brackets[open_bracket] != bracket:
+                return False
+        else:
             return False
-        if stack.pop() != pairs[bracket]:
-            return False
-    return len(stack) == 0
+    return not stack
